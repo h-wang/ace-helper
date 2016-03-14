@@ -1,0 +1,24 @@
+{
+  "name": "ace-helper",
+  "homepage": "https://github.com/h-wang/ace-helper",
+  "authors": [
+    "Hongliang <git@hongliang.nl>"
+  ],
+  "description": "Helps to easily integrate ace editor into your project, e.g. Silex, Symfony",
+  "main": "src/ace-helper.js",
+  "moduleType": [],
+  "keywords": [
+    "ace",
+    "editor",
+    "javascript",
+    "form"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
