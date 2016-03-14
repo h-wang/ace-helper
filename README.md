@@ -11,7 +11,7 @@ bower install ace-helper
 ## Use
 To use the ace-helper, simply add ```class="ace-editor"``` to ```div``` or ```textarea```. It will create an Ace editor for you. If it's a textarea, it will create an Ace editor after the textarea and sync the content of the editor with the textarea, which makes it straight-forward to be submitted.
 
-```
+```html
 <!-- jQuery -->
 <script src=".../jquery.min.js"></script>
 
@@ -28,13 +28,13 @@ To use the ace-helper, simply add ```class="ace-editor"``` to ```div``` or ```te
 ## Parameters
 
 Put the Ace parameters as data attributes in the HTML element to enable them.
-```
+```html
 <textarea class="ace-editor" data-mode="css" data-theme="monokai"></textarea>
 ```
 
 ## Examples
 
 Integrate with Symfony forms:
-```
+```html
 {{ form_row(form.description, { 'attr': {'class': 'ace-editor', 'data-theme': 'twilight', 'data-mode':'handlebars'} }) }}
 ```
