@@ -5,7 +5,6 @@ This library depends on [jQuery](https://jquery.com/) to work.
 
 ## Installation
 ```
-
 bower install ace-helper
 ```
 
@@ -30,7 +29,6 @@ To use the ace-helper, simply add ```class="ace-editor"``` to ```div``` or ```te
 
 Put the Ace parameters as data attributes in the HTML element to enable them.
 ```
-
 <textarea class="ace-editor" data-mode="css" data-theme="monokai"></textarea>
 ```
 
@@ -38,6 +36,5 @@ Put the Ace parameters as data attributes in the HTML element to enable them.
 
 Integrate with Symfony forms:
 ```
-
 {{ form_row(form.description, { 'attr': {'class': 'ace-editor', 'data-theme': 'twilight', 'data-mode':'handlebars'} }) }}
 ```
